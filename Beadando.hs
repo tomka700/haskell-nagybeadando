@@ -1,5 +1,5 @@
 module Beadando where
---Fülöp Tamás GL9AKN fuloptamas@student.elte.hu
+
 showState a = show a
 showMage a = show a
 eqMage a b =  a == b
