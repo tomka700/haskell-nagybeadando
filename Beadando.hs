@@ -193,4 +193,3 @@ finalBattle x y
             | x < 4 = You x $ finalBattle (x * 4) y
             | y > 15 = You x $ finalBattle x $ div (y * 3) 5
             | otherwise = You x $ finalBattle x $ y - 9
---I am become haskell mage, the destroyer of haskell mage
